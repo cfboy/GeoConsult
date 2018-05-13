@@ -24,6 +24,6 @@
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="/Volumes/Samsung_T5 1/Web Sites/Project Geo Consult" />
+    <option name="cloneParentDir" value="$USER_HOME$/git" />
   </component>
 </application>
