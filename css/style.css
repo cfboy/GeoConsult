@@ -823,7 +823,9 @@ ul.social-network li a {
 
 .portfolio-item {
     margin: 0;
-    padding: 0;
+    /*padding: 0;*/
+    padding: 0 15px;
+
 }
 .services .portfolio-item, .sub-services .portfolio-item{
     /*padding: 0 15px !important;*/
@@ -834,7 +836,7 @@ ul.social-network li a {
     margin-bottom: 20px;
 }
 
-.overlay a:hover {
+.overlay a {
     color: #df2932;
 }
 
@@ -1309,6 +1311,7 @@ a.scrollup {
     opacity: 0, 5;
     border-radius: 50%;
     z-index: 999;
+    background-color: #df2932;
 }
 
 a.scrollup:hover {
