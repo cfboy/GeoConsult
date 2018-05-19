@@ -494,18 +494,26 @@ ul.objectives, ul.description {
 }
 
 ul.objectives li, ul.description li {
-    margin: 0 18px;
+    margin: 10px 18px;
     font-size: 13px;
     color: #000;
 }
 
-.objectives li:hover, .description li:hover {
+.objectives li:hover {
     color: #db3615;
 }
 
 ul.objectives li i, ul.description li i {
     color: #db3615;
     font-size: 13px !important;
+}
+ul.description li a {
+    color: #df2932;
+    text-decoration: underline;
+    font-weight: bold;
+}
+ul.description li a:hover {
+    color: #951d25;
 }
 
 .skill h2 {
