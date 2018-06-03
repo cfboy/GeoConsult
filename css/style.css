@@ -24,6 +24,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
     line-height: 1.1em;
 }
+.navbar-brand a h1 span {
+    font-family: "Franklin Gothic Medium";
+}
+.navbar-brand a h1{
+    font-family: "Franklin Gothic Book";
+}
 
 p {
     color: #333;
@@ -619,7 +625,9 @@ ul.description li a:hover {
     margin-bottom: 30px;
     border-radius: 6px;
 }
-
+.img-description{
+    font-size: 10px;
+}
 .our-team {
     padding: 50px;
     background: #ddd;
