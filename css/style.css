@@ -253,10 +253,16 @@ hr.hrCustom {
     font-size: 60px;
     font-weight: 700;
 }
+@media (max-width: 576px) {
+    #main-slider .carousel h2 {
+        font-size: 40px;
+    }
+}
 
 #main-slider .carousel h2 span {
     color: #df2932;
 }
+
 
 #main-slider .carousel h2 span span {
     color: #000;
@@ -297,6 +303,11 @@ hr.hrCustom {
     -moz-transition: opacity ease-in-out 500ms;
     -o-transition: opacity ease-in-out 500ms;
     transition: opacity ease-in-out 500ms;
+}
+@media (max-width: 576px) {
+    #main-slider .carousel .item {
+        height: 500px;
+    }
 }
 
 #main-slider .carousel .item:first-child {
