@@ -24,10 +24,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
     line-height: 1.1em;
 }
+
 .navbar-brand a h1 span {
     font-family: "Franklin Gothic Medium";
 }
-.navbar-brand a h1{
+
+.navbar-brand a h1 {
     font-family: "Franklin Gothic Book";
 }
 
@@ -58,12 +60,15 @@ a:hover {
     text-decoration: none;
     color: #eee;
 }
-.color{
+
+.color {
     color: #df2932;
 }
-.color:hover{
+
+.color:hover {
     color: #951d25;
 }
+
 .btn-primary {
     padding: 8px 20px;
     background: #df2932;
@@ -253,6 +258,7 @@ hr.hrCustom {
     font-size: 60px;
     font-weight: 700;
 }
+
 @media (max-width: 576px) {
     #main-slider .carousel h2 {
         font-size: 40px;
@@ -262,7 +268,6 @@ hr.hrCustom {
 #main-slider .carousel h2 span {
     color: #df2932;
 }
-
 
 #main-slider .carousel h2 span span {
     color: #000;
@@ -304,6 +309,7 @@ hr.hrCustom {
     -o-transition: opacity ease-in-out 500ms;
     transition: opacity ease-in-out 500ms;
 }
+
 @media (max-width: 576px) {
     #main-slider .carousel .item {
         height: 500px;
@@ -501,7 +507,7 @@ hr.hrCustom {
 }
 
 ul.objectives, ul.description {
-    list-style:none;
+    list-style: none;
     /*margin-top:20px;*/
     padding: 0;
     transition: all 0.3s ease-in-out;
@@ -524,11 +530,13 @@ ul.objectives li i, ul.description li i {
     color: #db3615;
     font-size: 13px !important;
 }
+
 ul.description li a {
     color: #df2932;
     text-decoration: underline;
     font-weight: bold;
 }
+
 ul.description li a:hover {
     color: #951d25;
 }
@@ -636,9 +644,11 @@ ul.description li a:hover {
     /*margin-bottom: 30px;*/
     border-radius: 6px;
 }
-.img-description{
+
+.img-description {
     font-size: 10px;
 }
+
 .our-team {
     padding: 50px;
     background: #ddd;
@@ -658,6 +668,10 @@ ul.description li a:hover {
 .our-team img {
     border-radius: 6px;
     margin-top: 30px;
+}
+
+.our-team p {
+    margin-bottom: 0;
 }
 
 .lates {
@@ -681,7 +695,7 @@ ul.description li a:hover {
     padding: 15px 22px;
 }
 
-ul.social-network {
+ul.social-network, ul.personal-social-network {
     list-style: none;
     margin-top: 20px;
     padding: 10px;
@@ -691,14 +705,26 @@ ul.social-network {
     -o-transition: all 0.3s ease-in-out;
 }
 
-ul.social-network li {
+ul.personal-social-network {
+    margin-top: 0;
+}
+
+ul.social-network li, ul.personal-social-network li {
     display: inline;
     margin: 0 18px;
     font-size: 25px;
 }
 
+ul.personal-social-network li {
+    font-size: 40px;
+}
+
 ul.social-network li a {
     color: #d0d0d0;
+}
+
+ul.personal-social-network li a {
+    color: #0077b5;;
 }
 
 .social-network li:hover .fa-twitter {
@@ -854,7 +880,8 @@ ul.social-network li a {
     padding: 0 15px;
 
 }
-.services .portfolio-item, .sub-services .portfolio-item{
+
+.services .portfolio-item, .sub-services .portfolio-item {
     /*padding: 0 15px !important;*/
     padding: 10px 30px !important;
 }
